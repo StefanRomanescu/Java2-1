@@ -3,7 +3,8 @@
 public class Main {
     public static void main(String[] args) {
         int ticketPrice = 5_000;
-        int bonus = ticketPrice / 20;
+        int coefficient = 20;
+        int bonus = ticketPrice/coefficient;
         System.out.println("Начислено "+(bonus)+" бонусов");
     }
 }
